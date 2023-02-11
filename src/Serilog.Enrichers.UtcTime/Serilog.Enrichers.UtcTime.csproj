@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Shyam Sohane</Authors>
+    <PackageProjectUrl>https://github.com/shyamsohane/Serilog.Enrichers.UtcTime</PackageProjectUrl>
+    <AssemblyName>Serilog.Enrichers.UtcTime</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>obj\$(Configuration)\$(FrameworkVersion)\Serilog.Enrichers.UtcTime.xml</DocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+  </ItemGroup>
+
+</Project>
